@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    place-content: center;
+}
+
+body {
+  background-image: url(../images/lutreola2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo2{
+	width: 100px;
+    height: 100px; 
+	display:block;
+    /* margin:auto; */
+    position: fixed;
+    z-index: 10; 
+    position: relative;
+     top: -40px;
+   	left: 100px;
+}
+
+.titulo{
+	text-align: center;
+	color: #ffffff;
+	/* background-color: #1CDFE4; */
+	position: relative;
+    top: 50px;
+}
+
+#contenedorBoton{
+    float:none;
+	text-align:center;
+    
+}
+
+.container{
+	margin-right: 150px;
+	margin-top: -10px;
+    padding: 5px;
+    place-content: center;
+    position: relative;
+}
+
+
+label{
+	color: #ffff;
+}
